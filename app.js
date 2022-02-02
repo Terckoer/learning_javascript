@@ -64,10 +64,26 @@ const leave = function () {
 
 //$div.onmouseenter = enter;
 
-$div.addEventListener('click', ()=>{
-  alert('Presione el click');  
-});
+// $div.addEventListener('click', ()=>{
+//   alert('Presione el click');  
+// });
+// const $id = document.getElementById('id-div');
+// const $id2 = document.getElementById('id-div2');
+// function saluda(nombre='perengano'){
+//     alert('Hola '+nombre);
+// }
 
 
+// $id.addEventListener('click', function(e){
+//     saluda('Fulano');
+// });
 
+
+// const remove = (e) =>{
+//     alert('R');
+//     $id2.removeEventListener('click', remove);
+// }
+
+
+// $id2.addEventListener('click', remove);
 

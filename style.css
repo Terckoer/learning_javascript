@@ -13,3 +13,17 @@
     flex-wrap: wrap;
 
 }
+
+
+#id-div{
+    width: 250px;
+    height: 50px;
+    border: 5px solid cyan;
+}
+
+
+#id-div2{
+    width: 250px;
+    height: 50px;
+    border: 5px solid cyan;
+}
