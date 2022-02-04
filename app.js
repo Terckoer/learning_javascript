@@ -98,3 +98,47 @@
 //         console.log(e.className);
 //     });
 // });
+
+
+// BOM BROWSER OBJECT MODEL
+
+document.addEventListener('click', (e)=>{
+    console.log(e.target);
+});
+
+window.addEventListener('resize', (e)=>{
+    console.clear('Mouse move en window');
+    console.log('Se mueve el mouse'+e);
+    console.log(this.innerHeight);
+    console.log(this.innerWidth);
+    console.log(this.outerHeight);
+    console.log(this.outerWidth);
+    console.log(window.screenX);
+    console.log(window.screenY);
+
+
+
+});
+
+window.addEventListener('DOMContentLoaded', (e)=>{
+    console.log(e);
+});
+
+window.addEventListener('load', (e)=>{
+    console.log(e);
+});
+
+
+this.addEventListener('DOMContentLoaded', (e)=>{
+    console.log(e);
+});
+
+this.addEventListener('load', (e)=>{
+    console.log(e);
+});
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+    console.log(e);
+});
+
+
