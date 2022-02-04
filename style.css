@@ -27,3 +27,18 @@
     height: 50px;
     border: 5px solid cyan;
 }
+
+body div{
+    width: 200px;
+    height: 50px;
+}
+
+.div1{
+    background: cyan;
+}
+.div2{
+    background: lightcyan;
+}
+.div3{
+    background: darkcyan;
+}
