@@ -143,22 +143,50 @@
 
 // METODOS 
 
-const $abrir = document.querySelector('.abrir');
-const $cerrar = document.querySelector('.cerrar');
-const $imprimir = document.querySelector('.imprimir');
+// const $abrir = document.querySelector('.abrir');
+// const $cerrar = document.querySelector('.cerrar');
+// const $imprimir = document.querySelector('.imprimir');
 
-let referenciaVentana;
+// let referenciaVentana;
 
-$abrir.addEventListener('click',(e)=>{
-    //referenciaVentana = open('http://www.youtube.com');
-    referenciaVentana = open();
-});
+// $abrir.addEventListener('click',(e)=>{
+//     //referenciaVentana = open('http://www.youtube.com');
+//     referenciaVentana = open();
+// });
 
-$cerrar.addEventListener('click',(e)=>{
-    referenciaVentana.close();
-});
+// $cerrar.addEventListener('click',(e)=>{
+//     referenciaVentana.close();
+// });
 
-$imprimir.addEventListener('click',(e)=>{
-    window.print();
-});
+// $imprimir.addEventListener('click',(e)=>{
+//     window.print();
+// });
 
+
+console.log('Location attributes URL');
+console.log(this.location);
+console.log(location.hash);
+console.log(location.host);
+console.log(location.href);
+console.log(location.origin);
+console.log(location.port);
+console.log(location.protocol);
+console.log(location.pathname);
+console.log(location.search);
+
+console.log('Navigator URL');
+console.log(this.navigator);
+console.log(navigator.clipboard);
+console.log(navigator.connection);
+console.log(navigator.doNotTrack);
+console.log(navigator.geolocation);
+console.log(navigator.language);
+console.log(navigator.languages);
+console.log(navigator.serviceWorker);
+
+console.log('History');
+console.log(this.history);
+console.log(history.back);
+console.log(history.forward);
+console.log(history.state);
+console.log(history.scrollRestoration);
